@@ -44,3 +44,25 @@ A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen gener
   
 **Törvényi előírások, szabványok:**
   - GDPR-nek való megfelelés.
+
+# Funkcionális terv
+**Rendszerszereplők:**
+* Admin 
+* Bejelentkezett felhasználó
+* Látogató
+
+**Rendszerhasználati esetek és lefutásaik:** \
+Admin:
+* A felhasználói adatokat látják
+* Felhasználók hozzáadására, törlésére van lehetőségük
+
+Bejelentkezett felhasználó:
+* Lekérhet véletlenszerűen generált vicceket
+* Kedvelheti a vicceket
+* Megtekintheti a „Top Jokes” statisztikát
+* Kijelentkezhet
+
+Látogató:
+* Regisztrálhat a rendszerbe
+* Lekérhet véletlenszerűen generált vicceket
+* Megtekintheti a „Top Jokes” statisztikát
