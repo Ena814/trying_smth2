@@ -10,3 +10,37 @@ A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen gener
 |Backend fejlesztés | | 1 | 12 | 0 | 12 |
 |Frontend fejlesztés | | 1 | 12 | 0 | 12 |
 |Tesztelés |Funkcionális és integrációs tesztek | 2 | 10 | 0 | 10 |
+
+# Követelmények
+**Funkcionális követelmények:**
+* **Látogatók**: 
+  - Véletlenszerűen generált viccek lekérése
+  - Regisztrációs lehetőség
+  - Top viccek megtekintése
+* **Regisztrált felhasználó**
+  - Oldalra való bejelentkezés
+  - Véletlenszerűen generált viccek lekérése
+  - Viccek kedvelése
+  - Top viccek megtekintése
+  - Profiladatok módosítása
+* **Adminisztrációs funkciók**
+  - Felhasználók kezelése
+  - Viccek statisztikáinak megtekintése
+* **Rendszer funkciók**
+  - Biztonságos hitelesítés
+  - Adatbázisban viccek, kedvelések tárolása
+  - Hibakezelés
+
+**Nem funkcionális követelmények:**
+* **Használhatóság:**
+  - A rendszer felülete legyen egyszerű, áttekinthető és könnyen kezelhető.
+  - A felület reszponzív legyen, azaz mobilon, tableten és asztali gépen is megfelelően működjön.
+* **Biztonság:**
+  - A jelszavakat titkosított formában kell tárolni az adatbázisban.
+  - A rendszer védve legyen az alapvető támadásokkal szemben (pl. SQL injection, XSS).
+  - Csak a bejelentkezett felhasználók férhetnek hozzá a kedvelési funkcióhoz.
+* **Bővíthetőség és karbantarthatóság:**
+  - A kód legyen jól dokumentált a könnyebb karbantartás érdekében.
+  
+**Törvényi előírások, szabványok:**
+  - GDPR-nek való megfelelés.
