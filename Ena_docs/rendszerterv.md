@@ -1,5 +1,9 @@
 # A rendszer célja
+<<<<<<< HEAD
 A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen generált vicceket tudjanak lekérni. A látogatók regisztrálhatnak, a felhasználók bejelentkezhetnek, melyet követően lehetőség van a viccek kedvelésére. A kedveléskor az adott vicc bekerül az adatbázisba, mely alapján egy top jokes statisztika készül el. A weboldal egyszerű, reszponzív felületet kap a könnyen kezelhetőség érdekében.
+=======
+A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen generált vicceket tudjanak lekérni. A látogatók regisztrálhatnak, a felhasználók bejelentkezhetnek, melyet követően lehetőség van a viccek kedvelésére. A kedveléskor az adott vicc bekerül az adatbázisba, mely alapján egy top jokes statisztika készül el. A weboldal egyszerű, reszponzív felületet kap a könnyen kezelhetőség érdekében. 
+>>>>>>> 9f5e6d633855bf01b0fe494da61890434bf16d30
 
 # Projektterv
 **Ütemterv:**
@@ -11,6 +15,10 @@ A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen gener
 |Frontend fejlesztés | | 1 | 12 | 0 | 12 |
 |Tesztelés |Funkcionális és integrációs tesztek | 2 | 10 | 0 | 10 |
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9f5e6d633855bf01b0fe494da61890434bf16d30
 # Követelmények
 **Funkcionális követelmények:**
 * **Látogatók**: 
