@@ -47,15 +47,10 @@ A rendszer célja, hogy a látogatók és felhasználók véletlenszerűen gener
 
 # Funkcionális terv
 **Rendszerszereplők:**
-* Admin 
 * Bejelentkezett felhasználó
 * Látogató
 
 **Rendszerhasználati esetek és lefutásaik:** \
-Admin:
-* A felhasználói adatokat látják
-* Felhasználók hozzáadására, törlésére van lehetőségük
-
 Bejelentkezett felhasználó:
 * Lekérhet véletlenszerűen generált vicceket
 * Kedvelheti a vicceket
