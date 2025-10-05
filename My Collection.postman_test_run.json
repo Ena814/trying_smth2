@@ -1,0 +1,227 @@
+{
+	"id": "bd8cf2ce-175f-4e3a-95f6-cce3ca0bd895",
+	"name": "My Collection",
+	"timestamp": "2025-10-05T14:15:25.927Z",
+	"collection_id": "49017462-1ea132aa-7424-402d-abc5-9bd3b467d04b",
+	"folder_id": 0,
+	"environment_id": "49017462-5f22c7f0-b5dc-4be9-b374-b70e853a82bb",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-05T14:15:19.662Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ef596b75-90c1-4dbc-b158-9f96850870ed",
+			"name": "/api/jokes/",
+			"url": "http://127.0.0.1:8000/api/jokes",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5c3cbc69-ce2a-44d3-b9da-9e979e52dcbd",
+			"name": "/api/jokes/{external_id}/",
+			"url": "http://127.0.0.1:8000/api/jokes/1",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is JSON": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is JSON": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is JSON": true
+				}
+			]
+		},
+		{
+			"id": "0e543a16-683e-46a9-b7ae-8cf86301405d",
+			"name": "post /api/jokes/id/likes/",
+			"url": "http://127.0.0.1:8000/api/jokes/1/likes/",
+			"time": 26,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201 or 409": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201 or 409": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 201 or 409": true
+				}
+			]
+		},
+		{
+			"id": "6dde58c8-6725-4b95-bfcd-74f612e85828",
+			"name": "get /api/jokes/id/likes/",
+			"url": "http://127.0.0.1:8000/api/jokes/1/likes",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6f0831d3-263f-45fb-abda-e8292e987536",
+			"name": "delete /api/jokes/id/likes",
+			"url": "http://127.0.0.1:8000/api/jokes/1/likes/",
+			"time": 22,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				22
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "44119ffb-2d7b-4590-be46-79516fb301c1",
+			"name": "/auth/register/",
+			"url": "http://127.0.0.1:8000/auth/register/",
+			"time": 643,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				643
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "50d2ff8f-f6d0-4cad-9d46-720e9275e48e",
+			"name": "/auth/token",
+			"url": "http://127.0.0.1:8000/auth/token",
+			"time": 4,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 743,
+	"collection": {
+		"requests": [
+			{
+				"id": "ef596b75-90c1-4dbc-b158-9f96850870ed",
+				"method": "GET"
+			},
+			{
+				"id": "5c3cbc69-ce2a-44d3-b9da-9e979e52dcbd",
+				"method": "GET"
+			},
+			{
+				"id": "0e543a16-683e-46a9-b7ae-8cf86301405d",
+				"method": "POST"
+			},
+			{
+				"id": "6dde58c8-6725-4b95-bfcd-74f612e85828",
+				"method": "GET"
+			},
+			{
+				"id": "6f0831d3-263f-45fb-abda-e8292e987536",
+				"method": "DELETE"
+			},
+			{
+				"id": "44119ffb-2d7b-4590-be46-79516fb301c1",
+				"method": "POST"
+			},
+			{
+				"id": "50d2ff8f-f6d0-4cad-9d46-720e9275e48e",
+				"method": "POST"
+			}
+		]
+	}
+}
